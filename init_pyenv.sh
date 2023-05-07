@@ -7,4 +7,6 @@ echo 'eval "$(pyenv init -)"' >> $HOME/.zprofile
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
 echo 'eval "$(pyenv virtualenv-init -)"' >> $HOME/.zprofile
 
+brew install xz
+
 source ~/.zprofile
